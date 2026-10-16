@@ -41,7 +41,7 @@ spec:
         # backend n'est lie. Lue au demarrage par docker/40-dxp-config.sh.
         env:
         - name: VITE_API_URL
-          value: "https://atlas-avis-bff.68.221.5.247.nip.io:30444"
+          value: ""
         ports:
         - containerPort: 80
         resources:
